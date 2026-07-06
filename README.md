@@ -4,8 +4,6 @@
 
 **Paper: [`paper.pdf`](paper.pdf)** · Full research program + run-level ledger: [aware-latent-depth](https://github.com/dimitri-sky/aware-latent-depth)
 
-![Cover](figs/cover_motiv.png)
-
 ![Main result](figs/hero_pareto.png)
 
 Replacing every second attention layer of a modern Transformer++ with a
