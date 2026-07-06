@@ -4,6 +4,8 @@
 
 **Paper: [`paper.pdf`](paper.pdf)** · Full research program + run-level ledger: [aware-latent-depth](https://github.com/dimitri-sky/aware-latent-depth)
 
+![Cover](figs/cover_motiv.png)
+
 ![Main result](figs/hero_pareto.png)
 
 Replacing every second attention layer of a modern Transformer++ with a
@@ -28,6 +30,17 @@ pre-registered decision margins.
 Total cost of the study: **~$38** of commodity cloud compute (RTX 5090).
 Every number traces to a run_id; every experiment was pre-registered before
 results existed.
+
+## The idea in one picture
+
+A standard Transformer is read-only at inference: it must re-derive any
+newly-taught rule from raw context at every token. The delta-rule layer
+maintains a writable fast-weight state — it stores the rule once, then applies
+it.
+
+![Concept](figs/attention_vs_memory.png)
+
+![Architecture](figs/architecture_comparison.png)
 
 ## Try the demo (2 minutes)
 
