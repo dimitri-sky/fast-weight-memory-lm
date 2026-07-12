@@ -2,7 +2,7 @@
 
 **Dimitar Stojanovski · Aware AI Labs · July 2026**
 
-**Paper: [`paper.pdf`](paper.pdf)** · Full research program + run-level ledger: [aware-latent-depth](https://github.com/dimitri-sky/aware-latent-depth)
+**Paper: [`stojanovski2026-fast-weight-memory-lm.pdf`](stojanovski2026-fast-weight-memory-lm.pdf)** · Full research program + run-level ledger: [aware-latent-depth](https://github.com/dimitri-sky/aware-latent-depth)
 
 ![Main result](figs/hero_pareto.png)
 
@@ -59,13 +59,15 @@ answer costs B2 1.66x what it costs AWARE."*
 ## Repository contents
 
 ```
-paper.pdf         the paper (7 pages)
-paper.tex         LaTeX source
-figs/             all figures, vector PDF + 300-dpi PNG (scripts to regenerate
-                  from the run ledger live in the full repo)
-assets/           illustration prompts for figure generation
-CITATION.cff      machine-readable citation metadata
-.zenodo.json      Zenodo GitHub-integration metadata (DOI minting on release)
+stojanovski2026-fast-weight-memory-lm.pdf   the paper (7 pages)
+stojanovski2026-fast-weight-memory-lm.tex   LaTeX source
+figs/                                       all figures, vector PDF + 300-dpi PNG
+                                             (scripts to regenerate from the run
+                                             ledger live in the full repo)
+assets/                                     illustration prompts for figure generation
+CITATION.cff                                machine-readable citation metadata
+.zenodo.json                                Zenodo GitHub-integration metadata
+                                             (DOI minting on release)
 ```
 
 ## Citation
