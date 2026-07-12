@@ -1,0 +1,32 @@
+{
+  "_comment": "Zenodo GitHub integration metadata (https://developers.zenodo.org/#github). Intended for the public repos: fast-weight-memory-lm (primary) and aware-latent-depth. Enable the Zenodo webhook on the repo (zenodo.org > GitHub > flip the switch), then cut a GitHub release/tag; Zenodo mints a DOI from this metadata automatically. Update 'related_identifiers' with the arXiv DOI once assigned.",
+  "title": "fast-weight-memory-lm: Fast-Weight Memory Layers Improve Small Language Models at Matched Parameters and Compute",
+  "description": "Code, pre-registrations, run-level ledger, and figures for a matched-parameter, matched-compute study of gated delta-rule fast-weight memory layers versus a Transformer++ baseline, chain-of-thought economics, and weight-tied recurrent depth, on the SAGE procedural benchmark.",
+  "creators": [
+    {
+      "name": "Stojanovski, Dimitar",
+      "affiliation": "Aware AI Labs"
+    }
+  ],
+  "license": "MIT",
+  "upload_type": "software",
+  "access_right": "open",
+  "keywords": [
+    "fast-weight memory",
+    "delta rule",
+    "linear attention",
+    "gated DeltaNet",
+    "chain-of-thought",
+    "small language models",
+    "matched-compute evaluation",
+    "pre-registration",
+    "reproducibility"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/dimitri-sky/fast-weight-memory-lm",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    }
+  ]
+}

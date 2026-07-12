@@ -1,0 +1,57 @@
+# CITATION.cff — https://citation-file-format.github.io/
+#
+# This file is written for the two public repos this project ships to:
+#   - https://github.com/dimitri-sky/fast-weight-memory-lm   (paper + code, primary)
+#   - https://github.com/dimitri-sky/aware-latent-depth      (full research program)
+# Copy this file to the root of each; only `repository-code` and `abstract`
+# need to differ (see comments below). Once the arXiv ID is assigned, fill in
+# `preferred-citation.identifiers` (type: doi, value: 10.48550/arXiv.<id>).
+
+cff-version: 1.2.0
+message: "If you use this work, please cite the paper below."
+title: "Fast-Weight Memory Layers Improve Small Language Models at Matched Parameters and Compute"
+authors:
+  - family-names: Stojanovski
+    given-names: Dimitar
+    affiliation: "Aware AI Labs"
+    email: dimitar@awareailabs.com
+date-released: 2026-07-12
+license: CC-BY-4.0
+repository-code: "https://github.com/dimitri-sky/fast-weight-memory-lm"
+url: "https://github.com/dimitri-sky/fast-weight-memory-lm"
+abstract: >-
+  We replace every second attention layer of a modern Transformer with a
+  gated delta-rule fast-weight memory layer and evaluate the result under
+  strict accounting: parameters matched to 0.1%, identical data, matched
+  training budget, and pre-registered decision margins. On five procedural
+  task families, the memory hybrid is more accurate on all five (+4.0 to
+  +21.8 points) while spending 20-40% fewer inference FLOPs per correct
+  answer. Priced against visible chain-of-thought at matched per-answer
+  FLOPs, trained rationale tokens win on accuracy but the two mechanisms
+  compose. A bimodal skill-acquisition anomaly on a rule-revision task is
+  characterized and replicated (3/16 fresh seeds). The complete study - ten
+  pre-registered experiments including three negative results - cost $59 of
+  commodity cloud compute.
+keywords:
+  - fast-weight memory
+  - delta rule
+  - linear attention
+  - gated DeltaNet
+  - chain-of-thought
+  - small language models
+  - matched-compute evaluation
+  - pre-registration
+preferred-citation:
+  type: article
+  title: "Fast-Weight Memory Layers Improve Small Language Models at Matched Parameters and Compute"
+  authors:
+    - family-names: Stojanovski
+      given-names: Dimitar
+      affiliation: "Aware AI Labs"
+      email: dimitar@awareailabs.com
+  year: 2026
+  month: 7
+  # identifiers:
+  #   - type: doi
+  #     value: 10.48550/arXiv.XXXX.XXXXX
+  #     description: "arXiv preprint (fill in once assigned)"
